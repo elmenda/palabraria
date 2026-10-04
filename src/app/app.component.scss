@@ -1,0 +1,16 @@
+.topbar {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; justify-content: space-between; align-items: center;
+  padding: .75rem clamp(1rem, 4vw, 3rem);
+  background: rgba(255,255,255,.96); border-bottom: 1px solid #dbeaff;
+}
+.brand { display: flex; align-items: center; gap: .7rem; }
+.brand__mark {
+  display:grid; place-items:center; width:44px; height:44px; border-radius:14px;
+  background: var(--blue-700); color:white; font-weight:900; font-size:1.5rem;
+}
+.brand strong { display:block; color:var(--blue-900); font-size:1.1rem; }
+.brand small { color:var(--muted); }
+.progress-link { background:var(--blue-100); color:var(--blue-900); padding:.65rem .9rem; border-radius:999px; font-weight:800; }
+main { min-height: calc(100vh - 70px); }
+@media (max-width: 560px) { .brand small { display:none; } .progress-link { font-size:.85rem; } }
