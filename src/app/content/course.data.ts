@@ -651,153 +651,8 @@ export const TOPICS: Topic[] = [
             "text": "Fíjate no solo en lo que se cuenta, sino también en cómo se utilizan las palabras para producir un efecto en quien lee."
           }
         ],
-        "questions": [
-          {
-            "id": "literatura-1",
-            "question": "¿Qué concepto pertenece a «Los textos literarios»?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "lenguaje-literario",
-                "text": "Lenguaje literario",
-                "correct": true
-              },
-              {
-                "id": "una-fracción",
-                "text": "una fracción",
-                "correct": false
-              },
-              {
-                "id": "un-ecosistema",
-                "text": "un ecosistema",
-                "correct": false
-              },
-              {
-                "id": "una-unidad-de-masa",
-                "text": "una unidad de masa",
-                "correct": false
-              }
-            ],
-            "explanation": "La literatura usa las palabras para crear, emocionar y entretener. Hay cuentos, novelas, poemas, leyendas y obras teatrales."
-          },
-          {
-            "id": "literatura-2",
-            "question": "¿Cuál es otra idea importante de «Los textos literarios»?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "géneros",
-                "text": "Géneros",
-                "correct": true
-              },
-              {
-                "id": "multiplicación",
-                "text": "multiplicación",
-                "correct": false
-              },
-              {
-                "id": "kilómetro",
-                "text": "kilómetro",
-                "correct": false
-              },
-              {
-                "id": "continente",
-                "text": "continente",
-                "correct": false
-              }
-            ],
-            "explanation": "También trabajamos géneros."
-          },
-          {
-            "id": "literatura-3",
-            "question": "En literatura, además de entender qué ocurre, conviene fijarse en…",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "cómo-está-usado-el-lengu",
-                "text": "cómo está usado el lenguaje",
-                "correct": true
-              },
-              {
-                "id": "solo-el-número-de-página",
-                "text": "solo el número de páginas",
-                "correct": false
-              },
-              {
-                "id": "el-precio-del-libro",
-                "text": "el precio del libro",
-                "correct": false
-              },
-              {
-                "id": "el-tamaño-de-la-portada",
-                "text": "el tamaño de la portada",
-                "correct": false
-              }
-            ],
-            "explanation": "La forma de usar el lenguaje es fundamental en los textos literarios."
-          },
-          {
-            "id": "literatura-4",
-            "question": "¿Qué deberías ser capaz de reconocer después de estudiar esta sección?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "finalidad",
-                "text": "Finalidad",
-                "correct": true
-              },
-              {
-                "id": "una-operación",
-                "text": "una operación",
-                "correct": false
-              },
-              {
-                "id": "una-coordenada",
-                "text": "una coordenada",
-                "correct": false
-              },
-              {
-                "id": "una-unidad-de-volumen",
-                "text": "una unidad de volumen",
-                "correct": false
-              }
-            ],
-            "explanation": "Uno de los aprendizajes previstos es reconocer finalidad."
-          },
-          {
-            "id": "literatura-5",
-            "question": "¿Cuál es una buena forma de demostrar comprensión literaria?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "identificar-el-recurso-o",
-                "text": "Identificar el recurso o elemento y explicar su efecto",
-                "correct": true
-              },
-              {
-                "id": "copiar-sin-explicar",
-                "text": "copiar sin explicar",
-                "correct": false
-              },
-              {
-                "id": "contar-letras",
-                "text": "contar letras",
-                "correct": false
-              },
-              {
-                "id": "responder-sin-leer",
-                "text": "responder sin leer",
-                "correct": false
-              }
-            ],
-            "explanation": "Hay que reconocer los elementos y comprender para qué sirven."
-          }
-        ]
+        "questions": []
+
       },
       {
         "id": "escritura",
@@ -845,7 +700,7 @@ export const TOPICS: Topic[] = [
           {
             "type": "important",
             "title": "Qué se repasa",
-            "text": "Vocabulario, ortografía, gramática y, cuando corresponde, literatura o alfabetización mediática."
+            "text": "En este tema se repasan campo semántico, acentuación y sintagma nominal. El texto literario se trabaja como contenido de lectura, pero no se evalúa con test."
           },
           {
             "type": "tip",
@@ -854,355 +709,267 @@ export const TOPICS: Topic[] = [
           }
         ],
         "questions": [
-          {
-            "id": "tema-01-rep-campo-semantico-1",
-            "question": "¿Qué grupo forma un campo semántico?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "rojo-azul-verde-amarillo",
-                "text": "rojo, azul, verde, amarillo",
-                "correct": true
-              },
-              {
-                "id": "rojo-correr-mesa-ayer",
-                "text": "rojo, correr, mesa, ayer",
-                "correct": false
-              },
-              {
-                "id": "perro-rápido-cantar-azul",
-                "text": "perro, rápido, cantar, azul",
-                "correct": false
-              },
-              {
-                "id": "libro-nube-saltar-feliz",
-                "text": "libro, nube, saltar, feliz",
-                "correct": false
-              }
-            ],
-            "explanation": "Todas son palabras de la misma clase y nombran colores."
-          },
-          {
-            "id": "tema-01-rep-campo-semantico-2",
-            "question": "León, tigre, gato y lince pertenecen al campo semántico de…",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "los-felinos",
-                "text": "los felinos",
-                "correct": true
-              },
-              {
-                "id": "los-muebles",
-                "text": "los muebles",
-                "correct": false
-              },
-              {
-                "id": "los-colores",
-                "text": "los colores",
-                "correct": false
-              },
-              {
-                "id": "los-deportes",
-                "text": "los deportes",
-                "correct": false
-              }
-            ],
-            "explanation": "Todos son nombres de animales felinos."
-          },
-          {
-            "id": "tema-01-rep-campo-semantico-3",
-            "question": "¿Qué palabra NO pertenece al campo semántico de «material escolar»?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "tenedor",
-                "text": "tenedor",
-                "correct": true
-              },
-              {
-                "id": "cuaderno",
-                "text": "cuaderno",
-                "correct": false
-              },
-              {
-                "id": "lápiz",
-                "text": "lápiz",
-                "correct": false
-              },
-              {
-                "id": "regla",
-                "text": "regla",
-                "correct": false
-              }
-            ],
-            "explanation": "Un tenedor pertenece al ámbito de los cubiertos, no al material escolar."
-          },
-          {
-            "id": "tema-01-rep-acentuacion-1",
-            "question": "¿Qué palabra es aguda?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "reloj",
-                "text": "reloj",
-                "correct": true
-              },
-              {
-                "id": "mesa",
-                "text": "mesa",
-                "correct": false
-              },
-              {
-                "id": "música",
-                "text": "música",
-                "correct": false
-              },
-              {
-                "id": "árbol",
-                "text": "árbol",
-                "correct": false
-              }
-            ],
-            "explanation": "re-LOJ tiene la sílaba tónica en la última sílaba.",
-            "hint": "Pronúncialas despacio y escucha dónde recae la fuerza."
-          },
-          {
-            "id": "tema-01-rep-acentuacion-2",
-            "question": "¿Qué palabra es llana?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "lápiz",
-                "text": "lápiz",
-                "correct": true
-              },
-              {
-                "id": "sofá",
-                "text": "sofá",
-                "correct": false
-              },
-              {
-                "id": "corazón",
-                "text": "corazón",
-                "correct": false
-              },
-              {
-                "id": "pájaro",
-                "text": "pájaro",
-                "correct": false
-              }
-            ],
-            "explanation": "LÁ-piz es llana porque la sílaba tónica es la penúltima."
-          },
-          {
-            "id": "tema-01-rep-acentuacion-3",
-            "question": "¿Qué palabra es esdrújula?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "teléfono",
-                "text": "teléfono",
-                "correct": true
-              },
-              {
-                "id": "pared",
-                "text": "pared",
-                "correct": false
-              },
-              {
-                "id": "camino",
-                "text": "camino",
-                "correct": false
-              },
-              {
-                "id": "compás",
-                "text": "compás",
-                "correct": false
-              }
-            ],
-            "explanation": "te-LÉ-fo-no tiene la sílaba tónica en la antepenúltima."
-          },
-          {
-            "id": "tema-01-rep-gramatica-1",
-            "question": "En «la mochila azul», ¿cuál es el núcleo del sintagma nominal?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "mochila",
-                "text": "mochila",
-                "correct": true
-              },
-              {
-                "id": "la",
-                "text": "la",
-                "correct": false
-              },
-              {
-                "id": "azul",
-                "text": "azul",
-                "correct": false
-              },
-              {
-                "id": "la-mochila",
-                "text": "la mochila",
-                "correct": false
-              }
-            ],
-            "explanation": "El núcleo es el sustantivo «mochila»."
-          },
-          {
-            "id": "tema-01-rep-gramatica-2",
-            "question": "En «el perro pequeño», ¿qué función tiene «el»?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "determinante",
-                "text": "Determinante",
-                "correct": true
-              },
-              {
-                "id": "núcleo",
-                "text": "Núcleo",
-                "correct": false
-              },
-              {
-                "id": "complemento",
-                "text": "Complemento",
-                "correct": false
-              },
-              {
-                "id": "verbo",
-                "text": "Verbo",
-                "correct": false
-              }
-            ],
-            "explanation": "El artículo «el» concreta al sustantivo y funciona como determinante."
-          },
-          {
-            "id": "tema-01-rep-gramatica-3",
-            "question": "En «unas flores preciosas», ¿qué palabra funciona como complemento?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "preciosas",
-                "text": "preciosas",
-                "correct": true
-              },
-              {
-                "id": "unas",
-                "text": "unas",
-                "correct": false
-              },
-              {
-                "id": "flores",
-                "text": "flores",
-                "correct": false
-              },
-              {
-                "id": "unas-flores",
-                "text": "unas flores",
-                "correct": false
-              }
-            ],
-            "explanation": "El adjetivo «preciosas» aporta información sobre el núcleo «flores»."
-          },
-          {
-            "id": "tema-01-rep-literatura-1",
-            "question": "¿Qué concepto pertenece a «Los textos literarios»?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "lenguaje-literario",
-                "text": "Lenguaje literario",
-                "correct": true
-              },
-              {
-                "id": "una-fracción",
-                "text": "una fracción",
-                "correct": false
-              },
-              {
-                "id": "un-ecosistema",
-                "text": "un ecosistema",
-                "correct": false
-              },
-              {
-                "id": "una-unidad-de-masa",
-                "text": "una unidad de masa",
-                "correct": false
-              }
-            ],
-            "explanation": "La literatura usa las palabras para crear, emocionar y entretener. Hay cuentos, novelas, poemas, leyendas y obras teatrales."
-          },
-          {
-            "id": "tema-01-rep-literatura-2",
-            "question": "¿Cuál es otra idea importante de «Los textos literarios»?",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "géneros",
-                "text": "Géneros",
-                "correct": true
-              },
-              {
-                "id": "multiplicación",
-                "text": "multiplicación",
-                "correct": false
-              },
-              {
-                "id": "kilómetro",
-                "text": "kilómetro",
-                "correct": false
-              },
-              {
-                "id": "continente",
-                "text": "continente",
-                "correct": false
-              }
-            ],
-            "explanation": "También trabajamos géneros."
-          },
-          {
-            "id": "tema-01-rep-literatura-3",
-            "question": "En literatura, además de entender qué ocurre, conviene fijarse en…",
-            "difficulty": "easy",
-            "points": 10,
-            "answers": [
-              {
-                "id": "cómo-está-usado-el-lengu",
-                "text": "cómo está usado el lenguaje",
-                "correct": true
-              },
-              {
-                "id": "solo-el-número-de-página",
-                "text": "solo el número de páginas",
-                "correct": false
-              },
-              {
-                "id": "el-precio-del-libro",
-                "text": "el precio del libro",
-                "correct": false
-              },
-              {
-                "id": "el-tamaño-de-la-portada",
-                "text": "el tamaño de la portada",
-                "correct": false
-              }
-            ],
-            "explanation": "La forma de usar el lenguaje es fundamental en los textos literarios."
-          }
+                  {
+                            "id": "tema-01-final-campo-1",
+                            "question": "¿Qué grupo de palabras pertenece al mismo campo semántico?",
+                            "difficulty": "medium",
+                            "points": 10,
+                            "answers": [
+                                      {
+                                                "id": "enero-marzo-julio-octubre",
+                                                "text": "enero, marzo, julio, octubre",
+                                                "correct": true
+                                      },
+                                      {
+                                                "id": "enero-frio-calendario-viajar",
+                                                "text": "enero, frío, calendario, viajar",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "lunes-reloj-verano-agosto",
+                                                "text": "lunes, reloj, verano, agosto",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "abril-lluvia-correr-jardin",
+                                                "text": "abril, lluvia, correr, jardín",
+                                                "correct": false
+                                      }
+                            ],
+                            "explanation": "Enero, marzo, julio y octubre son sustantivos que nombran meses del año."
+                  },
+                  {
+                            "id": "tema-01-final-campo-2",
+                            "question": "En el grupo «violín, guitarra, flauta, tambor», ¿cuál es la categoría que comparten?",
+                            "difficulty": "medium",
+                            "points": 10,
+                            "answers": [
+                                      {
+                                                "id": "instrumentos-musicales",
+                                                "text": "Instrumentos musicales",
+                                                "correct": true
+                                      },
+                                      {
+                                                "id": "tipos-de-musica",
+                                                "text": "Tipos de música",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "profesiones",
+                                                "text": "Profesiones",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "acciones",
+                                                "text": "Acciones",
+                                                "correct": false
+                                      }
+                            ],
+                            "explanation": "Las cuatro palabras son sustantivos que nombran instrumentos musicales."
+                  },
+                  {
+                            "id": "tema-01-final-campo-3",
+                            "question": "¿Qué palabra sobra en el campo semántico formado por «camisa, pantalón, abrigo, cuchara»?",
+                            "difficulty": "medium",
+                            "points": 10,
+                            "answers": [
+                                      {
+                                                "id": "cuchara",
+                                                "text": "cuchara",
+                                                "correct": true
+                                      },
+                                      {
+                                                "id": "camisa",
+                                                "text": "camisa",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "pantalon",
+                                                "text": "pantalón",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "abrigo",
+                                                "text": "abrigo",
+                                                "correct": false
+                                      }
+                            ],
+                            "explanation": "Camisa, pantalón y abrigo son prendas de vestir; cuchara es un cubierto."
+                  },
+                  {
+                            "id": "tema-01-final-acentuacion-1",
+                            "question": "¿Qué clasificación corresponde a la palabra «ventana»?",
+                            "difficulty": "medium",
+                            "points": 10,
+                            "answers": [
+                                      {
+                                                "id": "llana",
+                                                "text": "Llana",
+                                                "correct": true
+                                      },
+                                      {
+                                                "id": "aguda",
+                                                "text": "Aguda",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "esdrujula",
+                                                "text": "Esdrújula",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "monosilaba",
+                                                "text": "Monosílaba",
+                                                "correct": false
+                                      }
+                            ],
+                            "explanation": "ven-TA-na tiene la sílaba tónica en la penúltima sílaba, por eso es llana."
+                  },
+                  {
+                            "id": "tema-01-final-acentuacion-2",
+                            "question": "¿En qué palabra recae la fuerza de voz en la última sílaba?",
+                            "difficulty": "medium",
+                            "points": 10,
+                            "answers": [
+                                      {
+                                                "id": "animal",
+                                                "text": "animal",
+                                                "correct": true
+                                      },
+                                      {
+                                                "id": "ventana",
+                                                "text": "ventana",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "lampara",
+                                                "text": "lámpara",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "facil",
+                                                "text": "fácil",
+                                                "correct": false
+                                      }
+                            ],
+                            "explanation": "a-ni-MAL tiene la sílaba tónica en la última posición, así que es aguda."
+                  },
+                  {
+                            "id": "tema-01-final-acentuacion-3",
+                            "question": "La palabra «brújula» tiene la sílaba tónica en «brú». ¿Cómo se clasifica?",
+                            "difficulty": "medium",
+                            "points": 10,
+                            "answers": [
+                                      {
+                                                "id": "esdrujula",
+                                                "text": "Esdrújula",
+                                                "correct": true
+                                      },
+                                      {
+                                                "id": "aguda",
+                                                "text": "Aguda",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "llana",
+                                                "text": "Llana",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "monosilaba",
+                                                "text": "Monosílaba",
+                                                "correct": false
+                                      }
+                            ],
+                            "explanation": "BRÚ-ju-la tiene la sílaba tónica en la antepenúltima posición."
+                  },
+                  {
+                            "id": "tema-01-final-gramatica-1",
+                            "question": "En el sintagma nominal «aquellos árboles altos», ¿cuál es el núcleo?",
+                            "difficulty": "medium",
+                            "points": 10,
+                            "answers": [
+                                      {
+                                                "id": "arboles",
+                                                "text": "árboles",
+                                                "correct": true
+                                      },
+                                      {
+                                                "id": "aquellos",
+                                                "text": "aquellos",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "altos",
+                                                "text": "altos",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "aquellos-arboles",
+                                                "text": "aquellos árboles",
+                                                "correct": false
+                                      }
+                            ],
+                            "explanation": "El sustantivo «árboles» es la palabra principal y funciona como núcleo."
+                  },
+                  {
+                            "id": "tema-01-final-gramatica-2",
+                            "question": "En «mi bicicleta nueva», ¿qué función tiene la palabra «mi»?",
+                            "difficulty": "medium",
+                            "points": 10,
+                            "answers": [
+                                      {
+                                                "id": "determinante",
+                                                "text": "Determinante",
+                                                "correct": true
+                                      },
+                                      {
+                                                "id": "nucleo",
+                                                "text": "Núcleo",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "complemento",
+                                                "text": "Complemento",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "verbo",
+                                                "text": "Verbo",
+                                                "correct": false
+                                      }
+                            ],
+                            "explanation": "«Mi» es un posesivo que concreta al sustantivo «bicicleta» y funciona como determinante."
+                  },
+                  {
+                            "id": "tema-01-final-gramatica-3",
+                            "question": "¿Qué análisis es correcto para «los zapatos negros»?",
+                            "difficulty": "hard",
+                            "points": 10,
+                            "answers": [
+                                      {
+                                                "id": "det-nuc-comp",
+                                                "text": "los = determinante · zapatos = núcleo · negros = complemento",
+                                                "correct": true
+                                      },
+                                      {
+                                                "id": "nuc-det-comp",
+                                                "text": "los = núcleo · zapatos = determinante · negros = complemento",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "det-comp-nuc",
+                                                "text": "los = determinante · zapatos = complemento · negros = núcleo",
+                                                "correct": false
+                                      },
+                                      {
+                                                "id": "comp-nuc-det",
+                                                "text": "los = complemento · zapatos = núcleo · negros = determinante",
+                                                "correct": false
+                                      }
+                            ],
+                            "explanation": "«los» concreta al sustantivo, «zapatos» es el sustantivo principal y «negros» aporta información sobre él."
+                  }
         ]
       }
     ]
